@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+     int i;
+     i=0,1;
+     switch (i)
+     {
+        case 1:
+           printf("It's in the list' ");
+        default:
+           printf("Isn't in the list' ");
+     }
+    return 0;
+}
